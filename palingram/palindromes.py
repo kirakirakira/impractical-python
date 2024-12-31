@@ -14,4 +14,5 @@ for word in word_list:
 print("\nNumber of palindromes found = {}\n".format(len(pali_list)))
 
 # print in list format with no quotes or commas:
+# change
 print(*pali_list, sep='\n')
